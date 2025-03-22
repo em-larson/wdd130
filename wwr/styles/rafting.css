@@ -1,0 +1,87 @@
+:root {
+    --main-color: #03312e;
+    --secondary-color: #b4e7ce;
+    --accent-1: #037171;
+    --accent-2: #9bdeac;
+}
+
+header {
+    background: var(--main-color);
+}
+
+nav {
+    color: var(--secondary-color);
+    background-color: transparent;
+
+}
+
+a:link {
+    color: var(--secondary-color);
+    background-color: var(--accent-1);
+    padding: 20px;
+    margin: 10px;
+}
+
+a:visited {
+    color: var(--accent-2)
+}
+
+.hero {
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    color: var(--secondary-color);
+    position: absolute;
+    font-family: 'londrina sketch', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 800%;
+    width: 100%;
+    z-index: 100;
+    top: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+
+article {
+    position: absolute;
+    border: 1px, solid, var(--main-color);
+    background: var(--secondary-color);
+    padding: 20px;
+    bottom: 40px;
+    left: 10px;
+    right: 10px;
+
+}
+
+.headshot {
+    width: 10%;
+    float: right;
+
+}
+
+h2 {
+    color: var(--accent-1);
+    font-family: 'londrina sketch', sans-serif;
+    font-weight: 600;
+    font-size: 250%
+}
+
+p {
+    color: var(--main-color);
+    font-family: 'cactus classical serif', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.socials {
+    text-decoration: none;
+}
