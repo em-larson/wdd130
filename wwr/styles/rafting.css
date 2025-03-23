@@ -53,7 +53,7 @@ h1 {
 
 article {
     position: absolute;
-    border: 1px, solid, var(--main-color);
+    border: 1px solid var(--main-color);
     background: var(--secondary-color);
     padding: 20px;
     bottom: 40px;
