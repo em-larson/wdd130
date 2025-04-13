@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -15,14 +21,25 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">First Name: </label><br>
+                <label for="fullname">First Name: </label>
                 <input type="text" id="fullname" name="fullname" value=""><br>
                 <label for="email">Email:</label>
-                <input type="text" id="">
+                <input type="text" id="email" name="email" value=""><br>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label><br>
+                <select id="browser" name="browser">
+                    <option value="chrome">Google Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="explorer">Internet Explorer</option>
+                </select><br><br>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet"><br><br>
+                <label for="feedback">List the places you have lived:</label><br>
+                <textarea id="feedback" name="feedback" rows="4"></textarea>
             </fieldset>
+            <input type="submit" value="Submit">
         </form>
     </main>
     <footer>

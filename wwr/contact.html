@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Londrina+Sketch&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/rafting-logo.png" alt="Logo">
+        <nav class="links">
+            <a href="index.html" class="hyperlink">Home</a>
+            <a href="about.html" class="hyperlink">About Us</a>
+            <a href="trips.html" class="hyperlink">Trips</a>
+            <a href="contact.html" class="hyperlink">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempora voluptatibus est eius
+                doloribus velit libero, commodi vitae dicta delectus tempore eaque error praesentium deleniti numquam
+                dolor. Commodi, tempora at!</p>
+        </div>
+        <div class="contact">
+            <h2 class="title">Want to Contact Us?</h2>
+            <p>Phone: 123-456-7890 <br> Address: 1234 S. Rafting Way Ut, 84401 <br> email: rafting@wwr.com</p>
+            <!-- Figure out how to insert the google maps thing here.       -->
+        </div>
+        <div>
+            <h2>Meet the Crew</h2>
+            <div class="introductions">
+                <!--insert a couple stock photos of people here. Include the caption thing for a figure and include a 'job title'-->
+                <figure><img src="images/staff-stephanie.jpg" width="150" alt="Photo of staff member">
+                    <figcaption>Stephanie Smith <br>CFO</figcaption>
+                </figure>
+                <figure><img src="images/staff-james.jpg" width="150" alt="photo of staff member">
+                    <figcaption>James Potter <br>Tour Guide</figcaption>
+                </figure>
+                <figure><img src="images/staff-alex.jpg" width="150" alt="photo of staff member">
+                    <figcaption>Alex Burrow <br>Tour Guide</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="questionaire">
+            <h2>Want to Send Us a Message?</h2>
+            <form>
+                <label for="fullname" id="fullname-label">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="email" id=email-label>Email:</label>
+                <input type="text" id="email" name="email"><br>
+                <label type="text" id="purpose" name="purpose"></label>
+                <label for="purpose" id="purpose-label">Purpose of Inquiry:</label>
+                <input type="radio" id="general" name="purpose">
+                <label for="general" id="general-label" class="radio-label">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose">
+                <label for="reservation" id="reservation-label" class="radio-label">Reservation Question</label><br>
+                <input type="radio" id="website" name="purpose">
+                <label for="website" id="suggestion-label" class="radio-label">Website Suggestion</label><br><br>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe" class=subscribe-label>Would you like to subscribe to a monthly
+                    newsletter?</label><br>
+                <button>Submit</button>
+
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="reference"> &copy; 2025, White Water Rafting, Emily Larson </p>
+        <nav class="socials">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Twitter">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
