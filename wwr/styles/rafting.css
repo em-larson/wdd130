@@ -319,6 +319,9 @@ element {
     font-family: 'cactus classical serif', serif;
     font-weight: 400;
     font-style: normal;
+    place-items: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 .blurb {
@@ -343,4 +346,50 @@ element {
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
+
+caption {
+    color: var(--main-color);
+    font-family: 'londrina sketch', sans-serif;
+    font-weight: 600;
+    font-size: 250%;
+    text-align: center;
+}
+
+.split {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+table {
+    background-color: #b4e7ce;
+    border: 3px solid var(--main-color);
+    font-family: 'cactus classical serif', serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+}
+
+thead {
+    background-color: #03312e;
+    color: white;
+}
+
+/* .column {
+    border: 3px solid var(--main-color);
+} */
+
+th:nth-child(2) {
+    border-left: 3px solid var(--main-color);
+    border-right: 3px solid var(--main-color)
+}
+
+th,
+td {
+    width: 33%
+}
+
+sidebar {
+    background: var(--secondary-color);
+    border: 10px double var(--accent-1);
 }
