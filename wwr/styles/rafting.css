@@ -53,12 +53,13 @@ h1 {
     font-family: 'londrina sketch', sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 400%;
+    font-size: 600%;
     width: 100%;
     z-index: 100;
     top: 20px;
     margin: auto;
     text-align: center;
+    background: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -122,6 +123,7 @@ p {
     font-family: 'cactus classical serif', serif;
     font-weight: 400;
     font-style: normal;
+    padding: 30px;
 }
 
 .hp {
@@ -152,6 +154,7 @@ footer {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
+    padding-top: 100px;
 }
 
 .reference {
@@ -164,4 +167,180 @@ footer {
 .socials {
     grid-column: 2/3;
     text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.contacttitle {
+    grid-column: 1/3;
+}
+
+iframe {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-left: 20%;
+}
+
+.contactinfo {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.introductions {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title {
+    align-self: flex-start;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: var(--secondary-color);
+    /* text-align: center; */
+    position: relative;
+    color: var(--main-color);
+    font-family: 'cactus classical serif', serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 30px;
+}
+
+#fullname {
+    grid-column: 2/3;
+}
+
+#fullname-label {
+    text-align: right;
+}
+
+#email {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#email-label {
+    grid-row: 2/3;
+    text-align: right;
+}
+
+#purpose-label {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: right;
+}
+
+#general {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#reservation {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+#website {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+.radio-label {
+    grid-column: 2/3;
+    text-align: left;
+}
+
+#general-label {
+    grid-row: 4/5;
+}
+
+#reservation-label {
+    grid-row: 5/6;
+}
+
+#suggestion-label {
+    grid-row: 6/7;
+}
+
+.subscribe-label {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    text-align: right;
+}
+
+#subscribe {
+    grid-row: 7/8;
+    grid-column: 2/3;
+}
+
+button {
+    grid-row: 9/10;
+    grid-column: 2/3;
+}
+
+.home-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 30px;
+}
+
+element {
+    background-color: #b4e7ce;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.big-button {
+    padding: 16px 32px;
+    /* bigger internal space */
+    font-size: 1.25rem;
+    /* larger text */
+    border-radius: 8px;
+    color: white;
+    background-color: #03312e;
+    font-family: 'cactus classical serif', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blurb {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 30px;
+    justify-content: center;
+    border: #03312e 7px solid;
+    margin: 30px;
+}
+
+.reverse-blurb {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 30px;
+    border: #03312e 7px solid;
+    margin: 30px;
+}
+
+.blurb-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
