@@ -27,14 +27,14 @@ header {
 }
 
 .hyperlink {
-    color: var(--secondary-color);
+    color: white;
     background-color: var(--accent-1);
     padding: 10px;
     border: 1px solid var(--main-color);
 }
 
 a:visited {
-    color: var(--accent-2)
+    color: white;
 }
 
 .hero {
